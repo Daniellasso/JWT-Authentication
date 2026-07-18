@@ -1,0 +1,33 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Sequelize / DB tooling
+# (não ignoramos migrations/seeders porque normalmente você versiona)
+*.sqlite
+*.db
+coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime / process files
+pids/
+*.pid
+*.pid.lock
+
